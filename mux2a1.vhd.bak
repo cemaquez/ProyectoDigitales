@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+Entity mux2a1 is
+generic (n: integer:=4); --1
+PORT(
+	A: IN std_logic_vector(n-1 downto 0);
+	B: IN std_logic_vector(n-1 downto 0);
+	sel: IN std_logic;
+	en: IN std_logic;
+	Q: OUT std_logic_vector(n-1 downto 0));
+
+end mux2a1;
+architecture sol of mux2a1 is
+	signal f: std_logic_vector(n-1 down to 0);
+begin
+
+with sel select
+
+	f<= A when '0',
+	B when others;
+	Q<=f when en='0' else ( others=> '0');
+
+end sol;

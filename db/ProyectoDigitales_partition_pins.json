@@ -1,0 +1,125 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "fin",
+					"strict" : false
+				},
+				{
+					"name" : "D03",
+					"strict" : false
+				},
+				{
+					"name" : "D02",
+					"strict" : false
+				},
+				{
+					"name" : "D01",
+					"strict" : false
+				},
+				{
+					"name" : "D00",
+					"strict" : false
+				},
+				{
+					"name" : "D13",
+					"strict" : false
+				},
+				{
+					"name" : "D12",
+					"strict" : false
+				},
+				{
+					"name" : "D11",
+					"strict" : false
+				},
+				{
+					"name" : "D10",
+					"strict" : false
+				},
+				{
+					"name" : "D23",
+					"strict" : false
+				},
+				{
+					"name" : "D22",
+					"strict" : false
+				},
+				{
+					"name" : "D21",
+					"strict" : false
+				},
+				{
+					"name" : "D20",
+					"strict" : false
+				},
+				{
+					"name" : "est[3]",
+					"strict" : false
+				},
+				{
+					"name" : "est[2]",
+					"strict" : false
+				},
+				{
+					"name" : "est[1]",
+					"strict" : false
+				},
+				{
+					"name" : "est[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[0]",
+					"strict" : false
+				},
+				{
+					"name" : "start",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "resetn",
+					"strict" : false
+				},
+				{
+					"name" : "Digito[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Digito[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Digito[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Digito[0]",
+					"strict" : false
+				},
+				{
+					"name" : "enter",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
